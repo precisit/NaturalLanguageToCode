@@ -9,8 +9,8 @@ from sklearn.preprocessing import LabelEncoder
 #========================Proccesing the data for the models======================================#
 
 nltk.download('treebank')
-sentences = treebank.tagged_sents(tagset='universal')
-sentences = sentences[:len(sentences)//8]
+sentences = treebank.tagged_sents()
+sentences = sentences[:len(sentences)//4]
 tags = set([
     tag for sentence in treebank.tagged_sents()
     for _, tag in sentence
