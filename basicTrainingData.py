@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 
 nltk.download('treebank')
 sentences = treebank.tagged_sents()
-sentences = sentences[:len(sentences)//4]
+sentences = sentences[:len(sentences)//32]
 tags = set([
     tag for sentence in treebank.tagged_sents()
     for _, tag in sentence
@@ -76,6 +76,10 @@ simple_train_sentences = untagger(training_sentences)
 # Fit our DictVectorizer with our set of features
 dict_vectorizer = DictVectorizer(sparse=False)
 dict_vectorizer.fit(X_train + X_test + X_val)
+output = open('dict_vectorizer.pkl', 'wb')
+pickle.dump(dict_vectorizer, output)
+output.close()
+
 # Convert dict features to vectors
 preX_train = training_sentences
 X_train = dict_vectorizer.transform(X_train)
