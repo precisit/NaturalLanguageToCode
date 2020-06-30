@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="col-md-4">
+      <div class="info">
+        <h1> Instructions to code </h1>
+        <p>
+          Feel free to give instructions! Write what you want the different objects to do. For example
+          <i>"The character should cut the tree with the axe"</i>. Or using synonyms: <i>"The boy should cut the bush with the hatchet"</i>.
+          Your goal is to move the character to the goal. Remember to be precise. A computer can have problems with ambiguous words like 'left'
+            and 'use'.
+        </p>
+
+        <p>The enviroment specified for this experiment consist of a number of objects and possible actions. These are: </p>
+        <p>
+          <strong>Objects:</strong>
+          <ul>
+            <li>Axe (Item)</li>
+            <li>Character</li>
+            <li>Cow</li>
+            <li>Tree</li>
+          </ul>
+          <strong>Actions:</strong>
+          <ul>
+            <li>Walk (*direction* / *target*) - <i>Walking one step in specified direction or to the target</i>
+            </li>
+            <li>Jump (*direction*)</li>
+            - <i>Jumping two steps in specified direction</i>
+            <li>Cut (*target*, *with*)</li>
+            - <i>Cuting target with specified item, destroying the target.</i>
+            <li>Eat (*target*)</li>
+            - <i>Eats the target, destroying it.</i>
+          </ul>
+        </p>
+      </div>
+      <form id="form">
+        <div id = "appro" value = 2></div>
+        <div class="speech">
+          <input type="text" name="data" id="transcript" placeholder="Speak or write" />
+          <img id="mic-img" src="//i.imgur.com/cHidSVu.gif" />
+        </div>
+        <div id="status"></div>
+      </form>
+    </div>
+    <div class="col-md-4" style="padding:0;">
+      <div id="editor"></div>
+          <div class="code-controll">
+            <button id="clear-btn" class="btn">Clear</button>
+            <button id="run-btn" class="btn">Run</button>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div id="gameItems"><span>ITEMS:</span><img src="static/icons/axe.png" title="Axe" /></div>
+        <canvas id="game" width="512" height="512"></canvas>
+        <div id="gameInfo"></div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+      <script src="static/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+      <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" type="text/javascript"></script>
+      <script src="static/astar.js" type="text/javascript"></script>
+      <script src="static/ObjAct.js" type="text/javascript"></script>
+      <script src="static/game.js" type="text/javascript"></script>
+
+</body>
+
+</html>

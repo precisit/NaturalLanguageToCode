@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .speech {
+        border: 1px solid #DDD;
+        width: 100%;
+        padding: 0;
+        margin: 0
+      }
+      .speech input {
+        border: 0;
+        width: 458px;
+        display: inline-block;
+        height: 40px;
+      }
+      
+      .speech img {
+        float: right;
+        width: 40px
+      }
+      .main{
+        display: block;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  </style>
+  <script src="static/wsbundle.js"> </script>
+  </head>
+  <body>
+    <div class="main">
+  <div class="info">
+    <h1> Instructions to code </h1>
+    <p>
+      Feel free to give instructions! Write or say (click the microphone icon) 
+      what you want the different objects to do. For example 
+      <i>"The character should cut the tree with the axe"</i>. Or paraphrased: <i>"The boy should cut the bush with the hatchet"</i>.  
+      The enviroment specified for this experiment consist of a 
+      number of object and possible actions. These are: </p>
+    <p>
+      <table width="500px">
+        <tr>
+          <td width="250px">
+            <strong>Actions:</strong>
+            <ul>
+              <li>Hit (*target*, *with*)</li>
+              <li>Walk (*direction*)</li>
+              <li>Jump (*how*)</li>
+              <li>Wave ()</li>
+              <li>Cut (*target*, *with*)</li>
+              <li>Eat ()</li>
+              <li>Turn (*direction*)</li>
+            </ul>
+          </td>
+          <td width="250px">
+            <strong>Objects:</strong>
+            <ul>
+              <li>Character</li>
+              <li>Tree</li>
+              <li>Axe</li>
+              <li>Cow</li>
+              <li>Johanna</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </p>
+  </div>
+  <form id="form" onsubmit="httpGetAsync('/getcode', displayCode); return false;">
+    <label for="appro">Approach:</label>
+    <select id="appro" name="appro">
+      <option value="1"> Dependency parsing</option>
+      <option value="2">Semantic role labeling</option>
+    </select>
+    <div class="speech">
+      <input type="text" name="data" id="transcript" placeholder="Speak or write" />
+      <img id="mic-img" onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
+    </div>
+  </form>
+  <div id="generatedCode"></div>
+  </main>
+  </body>
+</html>
+
+
+

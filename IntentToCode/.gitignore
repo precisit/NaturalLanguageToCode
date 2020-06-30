@@ -1,0 +1,6 @@
+*.pyc
+*.log
+*.idea
+node/node_modules
+node/google
+static/src-min-noconflict

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.speech {
+    border: 1px solid #DDD;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.speech input {
+    border: 0;
+    width: 90%;
+    display: inline-block;
+    height: 50px;
+}
+
+.speech img {
+    float: right;
+    max-width: 10%;
+}
+#generatedCode{
+    margin-top:70px;
+}
+
+#editor { 
+    position: relative;
+    margin-top: 10px;
+    min-height: 512px;
+}
+.code-controll{
+position: relative;
+padding: 10px;
+width: 100%;
+background-color: #2F3129;
+
+}
+
+#game{
+    background-image: url('gamebg.png');
+}
+
+#gameItems img{
+    max-height: 64px;
+}

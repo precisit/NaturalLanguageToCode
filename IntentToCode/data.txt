@@ -1,0 +1,212 @@
+Eat cow
+Eat animal
+eat cow
+eat axe
+eat tree
+eat goal
+consume goal
+consume tree
+consume axe
+consume cow
+Cut cow with axe
+kill cow
+Eat cow in front of you
+Eat animal in front of you
+Walk to cow and then eat it
+walk to cow then eat cow
+Go to cow and then eat it
+Go to cow and eat it
+Walk over to goal
+walk to goal
+Go over to goal
+Go to goal
+Walk to goal
+Go to goal
+Go left
+head left
+walk left
+Go to left
+Go right
+head right
+Go forward
+head forward
+walk right
+walk forward
+walk right
+Go to right
+head to right
+walk right
+Walk to right
+walk right
+Go up
+walk up
+head up
+Go down
+walk down
+Go backwards
+walk down
+Walk backwards
+walk down
+The character should walk to tree and then jump high
+Walk to tree then jump high
+The character should go to tree and then jump high
+Walk to tree then jump high
+go to tree and then jump high
+Walk to tree then jump high
+walk to tree and then jump.
+walk to tree then jump
+go to tree and then jump.
+go to tree and jump.
+walk to tree and jump.
+walk forward seven times, if cow is red.
+if cow is red walk forward seven times
+go forward if cow is red.
+if cow is red walk forward
+go forward seven times, if cow is red.
+if cow is red walk forward seven times
+walk forward seven times, if cow is red.
+if cow is red walk forward seven times
+You should walk forward five hundred times.
+walk forward five hundred times
+You should eat seven potatoes.
+eat seven potatoes
+Walk forward, turn left and then go forward again.
+Walk forward then turn left and then go forward again.
+The character should cut down tree using axe.
+The character cut tree with axe
+Walk down corridor and then turn left.
+Walk down corridor and then turn left.
+The character should walk forward and kill enemies.
+The character walk forward to enemy and then kill enemy
+Walk over to river and jump across it
+Walk to river and jump over river
+Jump across river after walking over to it
+Walk to river and jump over river
+After walking over to river jump over it
+Walk to river and jump over river
+Go over to river
+Walk to river
+Walk over to river
+Walk to river
+Walk right til you get to river
+Walk next to river
+Walk next to stream
+Walk to tree
+walk to tree
+Go down 3 steps and then to right
+Walk down 3 steps and then to right
+Go down to end of map
+Walk down til end of
+Take out your axe and chop tree
+cut tree with axe
+Cut tree with your axe
+cut tree with axe
+The boy should hit tree with axe.
+The boy hit tree with axe
+Use axe on tree
+cut tree with axe
+Chop tree
+chop tree with axe
+chop cow with axe
+chop goal with axe
+chop character with axe
+Hit tree with axe.
+cut tree with axe
+Try to cut tree
+cut tree
+Go to cow
+Walk over to cow
+walk to cow
+if cow is not eaten
+eat it if cow is not eaten eat it
+if cow is still there, eat it
+if cow is not eaten eat it
+the protaganist should walk left
+the protaganist should walk right
+the protaganist should walk down
+the protaganist should walk up
+the protaganist should walk forward
+the protaganist should move left
+the protaganist should move right
+the protaganist should move down
+the protaganist should move up
+Use hatchet on tree
+cut tree with hatchet
+the hero should cut tree with hatchet
+walk down 2 steps
+walk two squares to right and two squares down
+walk down 2 squares
+jump right
+run down three squares and walk one square to right
+eat water
+walk south 5 steps
+walk south 3 steps
+walk NORTH
+walk east 3 steps
+walk 3 steps east
+walk north
+walk 3 east
+walk 3 steps south
+walk left 3 times
+walk south
+walk up 3 steps
+walk north 3 steps
+walk north 3 times
+move cow
+move tree
+kill tree
+kill tree with axe
+jump to cow
+talk with axe
+The character should walk forward and kill enemies and jump
+The character should walk forward and kill enemies and lastly jump forward
+The character should walk forward and kill enemies and lastly jump forward then move to left
+move to right one step and then jump over river. After that walk to cow, eat cow and walk to goal
+if cow excist walk forward until it don't
+if cow excist walk forward until tree
+if cow excist walk forward until tree is cut
+if cow excist walk forward until cow is eaten
+walk down to end
+walk down all way
+for 3 time, walk down
+Walk to tree. Cut tree with axe
+Walk to tree and Cut tree with axe.
+Walk to tree and Cut tree with axe
+Walk to river
+Walk to lake
+walk to left
+jump over lake and walk right
+walk down the steps
+walk cow to the goal
+if a goal exists jump to a goal
+look at axe
+walk left
+take four steps left
+run left
+run right
+run up
+run down
+run 2 steps left
+run 3 steps right
+walk until meet cow
+walk until you meet cow
+run south
+run north
+run east
+look down
+pet cow
+walk until you meet goal
+jump over water
+jump over river
+left to cow
+right to cow
+left to tree
+right to tree
+left to character
+right to character
+look to your left
+look to your right
+he looked to his left
+he looked to his right
+take a step to the left
+take a step to the right

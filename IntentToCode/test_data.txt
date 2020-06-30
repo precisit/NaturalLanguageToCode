@@ -1,0 +1,19 @@
+The character should walk to the tree and then jump high.
+The boy should hit the tree with the axe.
+Hit the tree with the axe.
+John should walk to the tree and then jump.
+The person should pick up a potato and hit the cow with it.
+If the cat is green; walk forward seven times.
+The cat should walk up if the banana is green.
+Johanna should walk backward five times if the rose is red.
+Greg should walk forward seven times, if the cow is red.
+If I sleep, Greg should walk forward twice.
+Greg should walk forward five hundred times.
+Greg should eat seven potatoes.
+Walk forward until I sleep.
+If the cat is not green, walk forward seven times, else climb forward.
+If the cat is not green, walk forward seven times, if not, climb forward.
+Walk forward, turn left and then go forward again.
+The character should cut down the tree using the axe.
+Walk down the corridor and then turn left.
+The character should walk forward and kill the enemies.

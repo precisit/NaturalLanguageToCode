@@ -1,0 +1,18 @@
+{
+  "name": "speech-to-code",
+  "version": "1.0.0",
+  "description": "Speech to code using Google speech and own text to code API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^0.7.0",
+    "get-user-media-promise": "^1.1.1",
+    "google-auth-library": "^0.10.0",
+    "http": "0.0.0",
+    "websocket-stream": "^3.3.3"
+  }
+}
